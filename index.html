@@ -1,0 +1,130 @@
+.<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Uniqlo</title>
+	<style>
+		body{
+			font-family: arial, sans-serif;
+			color: lightred;
+			background-color: white;
+			text-align: center;
+		}
+		h4{
+			color: red;
+			font-family: arial, sans-serif;
+			font-size: 20px;
+		}
+		h5{
+			color: black;
+			font-family: arial, sans-serif;
+			font-size: 20px;
+		}
+		p{
+			color: indianred;
+			font-family: arial, sans-serif;
+			font-size: 15px;
+		}
+		.header{
+			color: darkred;
+			padding: 20px;
+			text-align: center;
+			font-size: 50px;
+			flex-shrink: 0;
+		}
+		.row{
+			content: "";
+			display: table;
+			clear: both;
+			flex-grow: 1;
+			padding: 20px;
+			border: 15px;
+			box-sizing: border-box;
+		}
+		.showcase{
+			float: left;
+			width: 32.6%;
+			padding: 15px;
+			border: 15px;
+			box-sizing: border-box;
+		}
+		.container{
+			width: 90%;
+			padding: 20px;
+			margin: 100px auto;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+		.box{
+			width: 250px;
+			margin: 0 10px;
+			box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+			float: left;
+			width: 33.33%;
+			padding: 15px;
+			transition: 1s;
+		}
+		.box img{
+			display: block;
+			width: 100%;
+			border-raidus: 5px;
+		}
+		.box:hover{
+			transform: scale(1.3);
+			z-index: 2;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="header">
+		<div class="header">
+			<h3>Uniqlo</h3>
+			<img src="UniqloHeader.PNG" alt="Uniqlo Banner Image" width="1250" height="250">
+		</div>
+
+		<h4>Free Shipping For Each Clothing Item</h4>
+		<h6>Some conditions may apply</h6>
+
+		<div class="row">
+			<div class="showcase">
+				<img src="BluePolo.JFIF" alt="Blue Polo Image" width="50%">
+			</div>
+
+			<div class="showcase">
+				<img src="HalfPolo.AVIF" alt="Half-Zip Polo Image" width="50%">
+			</div>
+
+			<div class="showcase">
+				<img src="PeaceForAll.JPG" alt="Peace For All Shirt Image" width="50%">
+			</div>
+
+			<h5>Clothing Items</h5>
+
+		<div class="container">
+			<div class="box">
+
+			<div class="box">
+				<img src="NeckTShirt.JFIF" alt="Crew Neck T-Shirt Image" width="75%">
+				<p>Crew Neck T-Shirt(P100)</p>
+			</div>
+
+			<div class="box">
+				<img src="CottonShirt.JFIF" alt="Cotton Shirt Image" width="75%">
+				<p>Cotton Oversized T-Shirt(P150)</p>
+			</div>
+
+			<div class="box">
+				<img src="LoveShirt.AVIF" alt="Love Shirt Image" width="75%">
+				<p>Peace For All Peanuts Short Sleeve T-Shirt(P250)</p>
+			</div>
+
+			<div class="box">
+				<img src="KAWS.JFIF" alt="KAWS Shirt Image" width="75%">
+				<p>KAWS X Uniqlo Youth Longsleeve Sweatshirt(P300)</p>
+			</div>
+		</div>
+</body>
+</html>
